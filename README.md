@@ -1,6 +1,6 @@
 # Unit Test Examples
 
-Example code for the workshop "An Introduction to Unit Testing (for WordPress)" at WordCamp Vienna, 2017.
+Example code for the workshop "[An Introduction to Unit Testing (for WordPress)](https://slides.tfrommen.de/unit-testing-workshop/)" at WordCamp Vienna, 2017.
 
 ## Getting Started
 
