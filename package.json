@@ -1,7 +1,7 @@
 {
   "name": "unit-test-examples",
-  "version": "1.0.0",
-  "description": "Example code for the workshop \"An Introduction to Unit Testing (for WordPress)\" at WordCamp Vienna, 2017.",
+  "version": "2.0.0",
+  "description": "Example code for my talks and workshops on unit testing.",
   "keywords": [
     "code",
     "es6",
@@ -29,18 +29,20 @@
     "type": "git",
     "url": "https://github.com/tfrommen/unit-test-examples"
   },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
   "devDependencies": {
-    "babel-preset-es2015": "^6.0.0",
-    "babel-tape-runner": "^2.0.0",
-    "sinon": "^2.1.0",
-    "tape": "^4.6.0"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "jest-each": "^0.3.1",
+    "react-test-renderer": "^16.3.1"
   },
   "scripts": {
-    "test": "babel-tape-runner tests/js/*Test.js"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "test": "jest --watch"
   }
 }

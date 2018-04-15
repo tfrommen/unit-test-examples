@@ -3,7 +3,7 @@
  */
 class FortuneTeller {
 	/**
-	 * Constructor. Sets up the members.
+	 * Constructor.
 	 * @param {Oracle} oracle - The oracle object.
 	 */
 	constructor( oracle ) {
@@ -11,16 +11,12 @@ class FortuneTeller {
 	}
 
 	/**
-	 * Returns the answer to life, universe and everything—in case you spend enough money, that is.
+	 * Return the answer to life, universe and everything; in case you spend enough money, that is.
 	 * @param {number} [money=0] - Money spent for getting an answer.
-	 * @returns {string} An answer.
+	 * @return {string} An answer.
 	 */
 	answer( money = 0 ) {
-		if ( Number( money ) < 5 ) {
-			return '';
-		}
-
-		return this.oracle.answer();
+		return ( Number( money ) >= 5 ) ? this.oracle.answer() : '';
 	}
 }
 

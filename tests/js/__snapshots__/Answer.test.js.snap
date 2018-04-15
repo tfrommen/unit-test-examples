@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Answer /> should render an answer according to the passed props 1`] = `
+<li
+  className="oracle__answer"
+>
+  Answer 
+  some-id-here
+  : 
+  <em>
+    Some text here.
+  </em>
+</li>
+`;

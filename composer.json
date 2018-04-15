@@ -1,6 +1,6 @@
 {
   "name": "tfrommen/unit-test-examples",
-  "description": "Example code for the workshop \"An Introduction to Unit Testing (for WordPress)\" at WordCamp Vienna, 2017.",
+  "description": "Example code for my talks and workshops on unit testing.",
   "keywords": [
     "code",
     "es6",
@@ -30,13 +30,13 @@
     "source": "https://github.com/tfrommen/unit-test-examples"
   },
   "require": {
-    "php": ">=5.4"
+    "php": ">=7"
   },
   "require-dev": {
-    "antecedent/patchwork": "1.3.*",
-    "brain/monkey": "^1.4.0",
-    "mockery/mockery": "~0.9",
-    "phpunit/phpunit": "~4.8|~5.1"
+    "antecedent/patchwork": "^2.0.0",
+    "brain/monkey": "^2.2.0",
+    "mockery/mockery": "^1.0.0",
+    "phpunit/phpunit": "^5.7.27"
   },
   "autoload": {
     "psr-4": {
@@ -44,6 +44,9 @@
     }
   },
   "autoload-dev": {
+    "files": [
+      "src/php/functions.php"
+    ],
     "psr-4": {
       "tfrommen\\UnitTestExamples\\Tests\\": "tests/php"
     }

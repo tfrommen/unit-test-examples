@@ -3,9 +3,8 @@
  */
 class Oracle {
 	/**
-	 * Returns the answer to life, universe and everything.
-	 *
-	 * @returns {string} The answer to life, universe and everything.
+	 * Return the answer to life, universe and everything.
+	 * @return {string} The answer to life, universe and everything.
 	 */
 	answer() {
 		return '42';
